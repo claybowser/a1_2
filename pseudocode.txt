@@ -1,0 +1,17 @@
+//Title : Assignment #1 part 3 : Imperial to Metric Conversion
+//Author : Clay Bowser
+//Date Last Modified : 2020/09/20
+
+Prompt data from User:
+    tons
+    stones
+    pounds
+    ounces
+
+Calculate data:
+    total ounces = 35840 * tons + 224 * stone + 16 * pounds + ounces
+    total kilos = total ounces / 35.274
+    metric tons = [convert to integer]=>kilos / 1000
+
+Display data to User
+    The metric weight is x metric tons, x kilos, and x.1 grams.
