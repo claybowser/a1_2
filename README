@@ -1,0 +1,16 @@
+Program 3 – Imperial to Metric Conversion
+
+Write a console program that converts a weight given in tons (imperial), stones, pounds, and ounces to the metric equivalent in metric tons, kilograms, and grams. Begin by designing your solution to this problem in pseudocode, which will be submitted along with the program.
+After the numbers of tons, stones, pounds, and ounces are input by the user, the weight should be converted entirely into ounces (the lowest common denominator) and then divided by 35.274 to obtain the value in kilos. The JavaScript parseInt function should be used to break the total number of kilos into a whole number of metric tons and kilos. The number of grams should be displayed to one decimal place.
+Required formulas:
+total ounces = 35840 * tons + 224 * stone + 16 * pounds + ounces
+total kilos = total ounces / 35.274
+metric tons = Int(kilos/1000)
+Examples and Testing
+In the section below you will be presented with at least one screenshot of a successful execution of a sample solution to the program, which should help demonstrate how your input/output on the program should work. In addition to the sample values used in the screenshot(s), additional testing values are given in a chart along with the output values that they should produce. You can expect your instructor to grade your assignment by using all of these listed input values at the very least, but keep in mind that additional values may also be used as well. In other words, you should thoroughly test your code before submitting!
+SAMPLE OUTPUT - Make sure your program can output data exactly as shown below.
+ 
+OTHER TESTING VALUES:
+Tons	Stone	Pounds	Ounces	Output
+8	340	1	4	The metric weight is 10 metric tons, 288 kilos, and 30.8 grams.
+24	78	0	10	The metric weight is 24 metric tons, 880 kilos, and 705.3 grams.
